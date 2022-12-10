@@ -1,0 +1,12 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+$custom-colors: (
+  "primary": #ff6800,
+);
+$font-sizes: (
+  7: 14px,
+  8: 0.5rem,
+);
+$theme-colors: map-merge($theme-colors, $custom-colors);
+@import "~bootstrap/scss/bootstrap.scss";

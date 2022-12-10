@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.text-ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+
+.parallax {
+  /* Set a specific height */
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;clip-path: polygon(0 0, 100% 0, 100% 60%, 0% 100%);
+  color: #ff43ea;
+}
